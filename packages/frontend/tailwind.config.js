@@ -1,0 +1,37 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "primary-dark": "#082521",
+        "primary-900": "#104B42",
+        "primary-800": "#177063",
+        "primary-700": "#1F9684",
+        "primary-600": "#27BBA5",
+        "primary-500": "#52C9B7",
+        "primary-400": "#7DD6C9",
+        "primary-300": "#A9E4DB",
+        "primary-200": "#D4F1ED",
+        "primary-100": "#E9F8F6",
+        "gray-700": "#3F3F3F",
+        "gray-600": "#606060",
+        "gray-500": "#808080",
+        "gray-400": "#CDCDCD",
+        "gray-300": "#DBDBDB",
+        "gray-200": "#E5E5E5",
+        "gray-100": "#F5F5F5",
+        "gray-50": "#FBFBFB",
+        error: "#DE0028",
+        action: "#B00020",
+        warning: "#FFC552",
+        pink: "#FFECEF",
+        white: "#fff",
+        black: "#000",
+      },
+    },
+  },
+  plugins: [],
+}

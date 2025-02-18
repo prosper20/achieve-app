@@ -1,4 +1,13 @@
 {
   "name": "achieve-app",
-  "packageManager": "yarn@4.5.2"
+  "version": "0.1.0",
+  "packageManager": "yarn@4.5.2",
+  "private": true,
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
 }
