@@ -8,7 +8,7 @@ export default defineConfig({
   ],
   css: {
     postcss: {
-      config: true, 
+      // config: true, 
     },
   },
 });
